@@ -1,5 +1,5 @@
 # golang-unicorn-sample
-在Golang中使用unicorn-engine进行汇编指令模拟执行的测试样例，静态库已编译配置好(基于unicorn-2.0.1.post1版本编译)，打开即用
+在Golang中使用unicorn-engine进行汇编指令模拟执行的测试样例，静态库已编译配置好(基于unicorn-2.0.1.post1版本编译)，开箱即用
 # 编译运行
 ```shell
 go build
