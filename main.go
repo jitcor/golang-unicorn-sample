@@ -1,7 +1,8 @@
 package main
 
 /*
-#cgo LDFLAGS:-L${SRCDIR} -lunicorn
+#cgo windows LDFLAGS:-L${SRCDIR}/window -lunicorn
+#cgo linux LDFLAGS:-L${SRCDIR}/linux -lunicorn -lm
 */
 import "C"
 
