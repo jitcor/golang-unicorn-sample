@@ -5,6 +5,7 @@
 go build
 ```
 # 自己编译静态库
+若不想使用unicorn-2.0.1.post1版本的静态库，可以自己编译其他版本的，以下命令基于unicorn-2.0.1.post1版本进行编译的
 ## Linux
 linux很简单，基本没啥坑
 ```shell
